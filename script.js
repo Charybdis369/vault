@@ -1,25 +1,41 @@
-//i created the variables that equal the combo numbers//
+/* 1. make a string with the intro message */
 
-const e = "3 + 7"
+const intromessage = 'You have been selected to open an important vault'
 
-const w = "40 - 60"
+const combomessage = 'This is the combonation'
 
-const q = "3 * 9 + 2"
+/* 2. then create the variables for the combonation numbers
+1. equals 10
+2. equals 40
+3. equals 39 */
 
-console.log("10 - 40 - 39")
+const combo1 = 3 + 7
 
-//then i created a few alerts, these will display messages//
-//creating a dialog for the user displaying the vault codes//
+const combo2 = 80 - 40
 
-alert("You have been selected to open an important vault")
+const combo3 = 64 / 4 + 23
 
-alert("The combonation is")
+console.log('Number 1:', combo1)
+console.log('Number 2:', combo2)
+console.log('Number 3:', combo3)
 
-//these are the alerts using arithmetic to display the combonation//
+/*3. create the dialog box diplaying the
+ messages and the combonatio */
 
-alert(3 + 7)
-alert(60 - 20)
-alert(3 * 9 + 2)
+alert(intromessage)
+
+alert(combomessage + '\n' + combo1 + ' - ' + combo2 + ' - ' +combo3)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
